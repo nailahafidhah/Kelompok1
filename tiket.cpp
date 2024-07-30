@@ -1,7 +1,5 @@
 #include <iostream>
-#include <string>
-
+#include <cmath>
 using namespace std;
-int main() {
-    cout << "hallo world";
-};
+
+double hitungBiayaTiket(int jumlahStasiun) 
