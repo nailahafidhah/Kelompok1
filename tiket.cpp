@@ -44,3 +44,9 @@ int main() {
         return 1;
     }
     
+  int jumlahStasiun = abs(stasiunTujuan - stasiunAwal) + 1;
+    
+    double biayaTiket = hitungBiayaTiket(jumlahStasiun);
+    
+    cout << "Biaya tiket dari stasiun " << stasiunAwal << " ke stasiun " << stasiunTujuan << " adalah: Rp" << biayaTiket << endl;
+    
