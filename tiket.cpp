@@ -15,3 +15,5 @@ bool validStasiun(int stasiun) {
 
 int main() {
     int stasiunAwal, stasiunTujuan;
+
+      cout << "Selamat Datang di stasiun Indonesia" << endl;
